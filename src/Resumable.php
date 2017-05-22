@@ -152,6 +152,16 @@ class Resumable
 
         natsort($chunkFiles);
 
+        $backup_file = $destFile . '_' . time();
+        if($this->moveUploadedFile($destFile, $backup_file))
+        {
+            $prevFile = new File($destFile);
+            $prevFile->delete();
+        }
+
+        $delete_file = new File($backup_file);
+        $delete_file->delete();
+
         $destFile = new File($destFile, true);
         foreach ($chunkFiles as $chunkFile) {
             $file = new File($chunkFile);

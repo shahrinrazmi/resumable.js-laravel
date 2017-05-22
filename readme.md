@@ -1,14 +1,12 @@
 # PHP backend for resumable.js
 
-This is a fork from [dilab/resumable.php](https://github.com/dilab/resumable.php) with changes to make it compatible with the [Laravel Framework](https://github.com/laravel/laravel)
-
-It is currently a work in progress and it is currently developed with Laravel versions 5.1 and 5.2 in mind.
+This is a fork from [black-bits/resumable.js-laravel-backend](https://github.com/black-bits/resumable.js-laravel-backend)
 
 ## Installation
 
 To install, use composer:
 
-``` composer require black-bits/resumable.js-laravel-backend ```
+``` composer require shahrinrazmi/resumable.js-laravel ```
 
 
 ## How to use
