@@ -1,7 +1,7 @@
 {
   "name": "shahrinrazmi/resumable.js-laravel",
   "description": "Laravel compatible PHP package for Resumable.js",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "authors": [
     {
       "name": "Shahrin Razmi",
